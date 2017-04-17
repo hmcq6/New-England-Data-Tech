@@ -60,3 +60,12 @@
 .home-advisor-card  strong {
   display: block;
 }
+
+.carousel-inner .item img {
+  min-height: 100%;
+}
+
+.glyphicon-half {
+  width: 0.5em;
+  overflow-x: hidden;
+}

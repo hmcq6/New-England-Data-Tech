@@ -1,7 +1,8 @@
 <span class='card-rating'>
-  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+  <% rating.times do %>
+    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+  <% end %>
+  <% if rating % 1 == 1 %>
+    <span class="glyphicon glyphicon-star glyphicon-half" aria-hidden="true"></span>
+  <% end %>
 </span>

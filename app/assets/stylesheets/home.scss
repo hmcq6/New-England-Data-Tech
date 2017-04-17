@@ -32,3 +32,30 @@
 .marketing .img-circle {
   border: solid 1px #777;
 }
+
+.card-list {
+  padding: 0px;
+  height: 20em;
+  overflow-y: scroll;
+}
+
+.home-advisor-card,
+.thumbtack-card {
+  list-style: none;
+  border: 1px solid black;
+
+  padding: 1em;
+  text-align: left;
+
+  &:not(:first-of-type) {
+    border-top: 0;
+  }
+
+  p {
+    padding-bottom: none;
+  }
+}
+
+.home-advisor-card  strong {
+  display: block;
+}

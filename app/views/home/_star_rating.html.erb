@@ -1,5 +1,5 @@
 <span class='card-rating'>
-  <% rating.times do %>
+  <% rating.to_i.times do %>
     <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
   <% end %>
   <% if rating % 1 == 1 %>

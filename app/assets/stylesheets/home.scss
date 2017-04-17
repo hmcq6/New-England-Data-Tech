@@ -34,6 +34,8 @@
 }
 
 .card-list {
+  border: solid black;
+  border-width: 1px;
   padding: 0px;
   height: 20em;
   overflow-y: scroll;
@@ -42,13 +44,12 @@
 .home-advisor-card,
 .thumbtack-card {
   list-style: none;
-  border: 1px solid black;
 
   padding: 1em;
   text-align: left;
 
   &:not(:first-of-type) {
-    border-top: 0;
+    border-top: 1px solid black;
   }
 
   p {

@@ -8,10 +8,6 @@ class HomeController < ApplicationController
     respond_to :html
   end
 
-  def products
-    respond_to :html
-  end
-
   def gallery
     respond_to :html
   end

@@ -1,0 +1,26 @@
+<div class="container">
+  <h2>Services</h2>
+  <div class="row">
+    <div class="col-lg-6">
+      <h4>Audio/Visual &amp; Computers</h4>
+      <ul>
+        <li>Install, Repair, or Conceal Home Theater Wiring</li>
+        <li>Computer Network Install</li>
+        <li>Home Entertainment System Install</li>
+        <li>Home Entertainment System Repair</li>
+        <li>TV Mount</li>
+        <li>Install Home Theater Surround Sound System</li>
+        <li>Install Home Theater Accessory</li>
+        <li>Universal Remote Control Programming</li>
+      </ul>
+    </div>
+    <div class="col-lg-6">
+      <h4>Service Areas</h4>
+      <ul>
+        <% @service_areas.each do |service_area| %>
+          <li class="col-lg-4"><%= service_area %></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>

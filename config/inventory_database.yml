@@ -1,0 +1,21 @@
+development:
+        adapter: mysql
+        database: inventory_development
+        username: root
+        password: B1e6r1!
+        host: localhost
+                        
+test:
+        adapter: mysql
+        database: inventory_test
+        username: root
+        password: B1e6r1!
+        host: localhost
+                                                 
+production:
+        adapter: mysql
+        database: inventory_production
+        username: root
+        password: B1e6r1!
+        host: localhost
+

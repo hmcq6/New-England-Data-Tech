@@ -23,3 +23,8 @@
 .carousel-inner .item img {
   width: 100%;
 }
+
+.carousel-control:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=90);
+}

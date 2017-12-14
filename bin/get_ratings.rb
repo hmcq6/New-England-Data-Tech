@@ -19,7 +19,7 @@ def get_ratings
     all_ratings.concat get_ratings_from_page(
       Nokogiri::HTML(
         open(
-          "http://www.homeadvisor.com/rated.NewEnglandDataTech.55951844.html?page=#{page_index}&sort=newest"
+          "http://www.homeadvisor.com/rated.NewEnglandDataTech.55951844.html?page=#{page_index}"
         )
       )
     )

@@ -2,7 +2,7 @@
 
 require 'open-uri'
 require 'nokogiri'
-require 'FileUtils'
+require 'fileutils'
 
 def get_ratings
   n = Nokogiri::HTML(open('http://www.homeadvisor.com/rated.NewEnglandDataTech.55951844.html'))
